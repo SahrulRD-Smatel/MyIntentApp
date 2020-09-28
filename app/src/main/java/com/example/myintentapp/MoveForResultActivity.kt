@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.RadioGroup
 import kotlinx.android.synthetic.main.activity_move_for_result.*
 
-class MoveForResultActivity : AppCompatActivity() {
+class MoveForResultActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var btnChoose: Button
     private lateinit var rgNumber: RadioGroup

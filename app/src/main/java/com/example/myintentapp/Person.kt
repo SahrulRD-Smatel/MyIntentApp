@@ -3,7 +3,7 @@ package com.example.myintentapp
 import android.os.Parcel
 import android.os.Parcelable
 
-class Person {
+
 
     data class Person(
         val name: String?,
@@ -40,4 +40,3 @@ class Person {
             }
         }
     }
-}
